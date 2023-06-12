@@ -1,4 +1,4 @@
-function sumFromTwoNums(initialNum, finalNum) {
+function sumBetweenTwoNums(initialNum, finalNum) {
   let getTotalSum = 0;
   for (let i = initialNum; i <= finalNum; i++) {
     getTotalSum += i;
@@ -7,5 +7,5 @@ function sumFromTwoNums(initialNum, finalNum) {
 }
 
 // Example values
-sumFromTwoNums(0, 100)
+sumBetweenTwoNums(0, 100)
 // result 5050
